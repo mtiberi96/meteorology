@@ -145,6 +145,6 @@ def main():
 # Plot sounding
     plt.show()
 
-while True:
+while True: # Prevents script from closing after execution has finished (user must terminate manually with Ctrl-C)
     print(' ')
     main()
